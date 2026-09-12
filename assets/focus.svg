@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="88" viewBox="0 0 820 88" role="img" aria-labelledby="title desc">
+  <title id="title">Current focus</title>
+  <desc id="desc">Animated text cycling through: From product idea to production; Web platforms, AI products, and internal tools; Clear interfaces and dependable systems.</desc>
+
+  <style>
+    .panel {
+      fill: #f6f8fa;
+      stroke: #d0d7de;
+    }
+
+    .accent {
+      fill: #e85d04;
+    }
+
+    .eyebrow {
+      fill: #57606a;
+      font: 600 11px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      letter-spacing: 0.14em;
+    }
+
+    .line {
+      fill: #24292f;
+      font: 600 19px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      opacity: 0;
+      animation: show-line 12s infinite;
+    }
+
+    .line-1 { opacity: 1; }
+    .line-2 { animation-delay: 4s; }
+    .line-3 { animation-delay: 8s; }
+
+    @keyframes show-line {
+      0% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+      29% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+      33% {
+        opacity: 0;
+        transform: translateY(-5px);
+      }
+      95% {
+        opacity: 0;
+        transform: translateY(5px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @media (prefers-color-scheme: dark) {
+      .panel {
+        fill: #0d1117;
+        stroke: #30363d;
+      }
+
+      .eyebrow { fill: #8b949e; }
+      .line { fill: #f0f6fc; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .line {
+        animation: none;
+        opacity: 0;
+        transform: none;
+      }
+
+      .line-1 { opacity: 1; }
+    }
+  </style>
+
+  <rect class="panel" x="0.5" y="0.5" width="819" height="87" rx="12" />
+  <rect class="accent" x="24" y="25" width="4" height="38" rx="2" />
+  <text class="eyebrow" x="48" y="34">CURRENT FOCUS</text>
+  <g aria-hidden="true">
+    <text class="line line-1" x="48" y="61">From product idea to production.</text>
+    <text class="line line-2" x="48" y="61">Web platforms, AI products, and internal tools.</text>
+    <text class="line line-3" x="48" y="61">Clear interfaces. Dependable systems.</text>
+  </g>
+</svg>
