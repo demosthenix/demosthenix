@@ -47,22 +47,20 @@ Code matters. So do clear decisions, honest status updates, and software that a 
 <p align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" height="42" alt="TypeScript" title="TypeScript" />
   &nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" height="42" alt="React" title="React" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" height="42" alt="React and React Native" title="React / React Native" />
   &nbsp;&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" height="42" alt="Next.js" title="Next.js" />
-  &nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactnative/reactnative-original.svg" height="42" alt="React Native" title="React Native" />
   &nbsp;&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" height="42" alt="Node.js" title="Node.js" />
   &nbsp;&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nestjs/nestjs-original.svg" height="42" alt="NestJS" title="NestJS" />
   &nbsp;&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" height="42" alt="Tailwind CSS" title="Tailwind CSS" />
+  &nbsp;&nbsp;
+  <img src="https://payloadcms.com/images/favicon.svg" height="42" alt="Payload CMS" title="Payload CMS" />
 </p>
 
 <p align="center">
-  <img src="https://payloadcms.com/images/favicon.svg" height="42" alt="Payload CMS" title="Payload CMS" />
-  &nbsp;&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" height="42" alt="MongoDB" title="MongoDB" />
   &nbsp;&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original.svg" height="42" alt="Redis" title="Redis" />
@@ -70,6 +68,8 @@ Code matters. So do clear decisions, honest status updates, and software that a 
   <img src="https://typesense.org/favicon.png" height="42" alt="Typesense" title="Typesense" />
   &nbsp;&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" height="42" alt="AWS" title="AWS" />
+  &nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/googlecloud/googlecloud-original.svg" height="42" alt="Google Cloud" title="Google Cloud" />
   &nbsp;&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" height="42" alt="Docker" title="Docker" />
   &nbsp;&nbsp;
