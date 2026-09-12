@@ -42,6 +42,18 @@ I like the stretch between “we have an idea” and “people rely on this ever
 
 Code matters. So do clear decisions, honest status updates, and software that a team can run after handover.
 
+## GitHub at a glance
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=demosthenix&amp;background=0D1117&amp;border=30363D&amp;stroke=30363D&amp;ring=E85D04&amp;fire=E85D04&amp;currStreakNum=F0F6FC&amp;sideNums=F0F6FC&amp;currStreakLabel=8B949E&amp;sideLabels=8B949E&amp;dates=8B949E&amp;border_radius=12" />
+    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=demosthenix&amp;background=F6F8FA&amp;border=D0D7DE&amp;stroke=D0D7DE&amp;ring=E85D04&amp;fire=E85D04&amp;currStreakNum=24292F&amp;sideNums=24292F&amp;currStreakLabel=57606A&amp;sideLabels=57606A&amp;dates=57606A&amp;border_radius=12" />
+    <img src="https://streak-stats.demolab.com?user=demosthenix&amp;ring=E85D04&amp;fire=E85D04&amp;border_radius=12" height="190" alt="Anindya's total contributions, current streak, and longest streak" />
+  </picture>
+</p>
+
+<p align="center"><sub>Most client work lives in private repositories, so this only reflects the activity GitHub exposes publicly.</sub></p>
+
 ## Toolbox
 
 <p align="center">
