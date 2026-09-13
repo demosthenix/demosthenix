@@ -1,11 +1,12 @@
 <h1 align="center">Anindya Mitra</h1>
 
 <p align="center">
-  <strong>Full-stack product engineer at <a href="https://folkwaretech.coop">Folkware Technologies</a></strong>
+  <strong>Full-stack engineer and founder at <a href="https://folkwaretech.coop">Folkware Technologies</a>, a worker-owned software cooperative in Kolkata</strong>
 </p>
 
 <p align="center">
-  I turn ambitious product ideas into software people can actually rely on.
+  Most of what I build is used by unions, worker organisations, and small teams<br />
+  who have no ops department to catch it when it breaks.
 </p>
 
 <p align="center">
@@ -15,34 +16,39 @@
 </p>
 
 <p align="center">
-  <img src="./assets/focus.svg" width="820" alt="Current focus: from product idea to production; web platforms, AI products, and internal tools; clear interfaces and dependable systems." />
+  <img src="./assets/focus.svg" width="820" alt="Current focus: tools for unions, co-ops, and small teams; owned end to end, from schema to deploy; built to keep running without me." />
 </p>
 
-## What I do
+## The short version
 
-I work across product decisions, interfaces, backends, infrastructure, and the integrations in between. I am most useful when a project needs someone to understand the whole system and still get the details right.
+I usually own a product end to end: schema, API, interface, deploy, and whatever breaks afterwards. The teams I work with are small, often four or five people carrying an entire product line, and at that size a clever architecture nobody has time to operate is worse than a boring one that runs itself.
 
-- Build and ship web, mobile, and internal products
-- Design APIs, data flows, content systems, search, billing, and automation
-- Stay with the work through testing, deployment, monitoring, and iteration
+In practice that means:
+
+- Two products needing the same capability get a versioned package they both install, not a third service to babysit
+- Auth and permissions designed once and properly, with a break-glass path for whoever is on support that week
+- Loading, empty, and error states built as part of the feature, not queued as polish for a sprint that never comes
+- Handover notes good enough that the project survives me leaving it
 
 ## Selected work
 
-| Product | What I worked on |
+| Product | What I built, and the hard part |
 | --- | --- |
-| **[ZusGPT](https://folkwaretech.coop/projects/zusgpt)** | Turned four AI writing tools into one subscription product, with shared authentication, billing, access controls, and a separate backend for AI workloads.<br><sub>Next.js · NestJS · MongoDB</sub> |
-| **[Dotra](https://folkwaretech.coop/projects/dotra)** | Worked across a mobile app, backend, venue tools, and courtside recording pipeline for AI-assisted racket-sports analysis.<br><sub>React Native · NestJS · Redis · AWS</sub> |
-| **[The Jarrow ecosystem](https://folkwaretech.coop/projects/jarrow-insights)** | Build and maintain publishing, campaign, learning, and private knowledge tools for unions and worker organisations.<br><sub>Next.js · Payload CMS · Typesense · MongoDB</sub> |
+| **[Dotra](https://folkwaretech.coop/projects/dotra)**<br><sub>for PaddleVision</sub> | Padel analytics that run from a courtside camera to a phone. I'm the primary engineer on both the Expo app and the NestJS backend: the recording and upload pipeline, queue and Step Function orchestration through PBVision's computer-vision engine, live match state over websockets, and iOS Live Activities for scores. Venues have unreliable networks, so the pipeline has to assume footage arrives late and out of order.<br><sub>Expo / React Native · NestJS · MongoDB · Redis + BullMQ · AWS</sub> |
+| **[ZusGPT](https://folkwaretech.coop/projects/zusgpt)** | Four AI writing tools sold as one subscription. I built the NestJS backend and most of the Next.js front end: OpenAI and Gemini behind one interface, a credit ledger that meters every generation, Stripe subscriptions, and the referral and affiliate programmes on top. Metering is the interesting part, because a failed generation that still bills a customer is worse than one that fails loudly.<br><sub>Next.js · NestJS · MongoDB · Stripe · OpenAI + Gemini</sub> |
+| **The Jarrow ecosystem**<br><sub>[Jarrow Insights](https://folkwaretech.coop/projects/jarrow-insights), [Worker Academy](https://folkwaretech.coop/projects/worker-academy), and internal platforms</sub> | Campaign asset management, worker education, publishing, and private knowledge tools for trade unions and organising groups. My longest-running work, and the one that is really about architecture: action-level permissions resolved from groups and per-user overrides on top of Keycloak, an S3 asset library with print-order and artwork workflows, and shared packages, a broadcast-email plugin and a file and workspace core, that the apps install instead of reimplementing.<br><sub>Next.js · NestJS · Payload CMS · Keycloak · Typesense · MongoDB</sub> |
 
-Most of this is private client work. The case studies show the product outcomes without exposing client code or operational details.
+The same thread runs through the smaller work: [Rise Movement](https://folkwaretech.coop/projects/rise-movement), [Unionise.ai](https://folkwaretech.coop/projects/unionise-ai), and [Skate.coop](https://folkwaretech.coop/projects/skate-coop) are all unions, cooperatives, or political movements. Nearly all of it is private client code, so the case studies cover outcomes rather than implementation.
 
 ## How I work
 
-I like the stretch between “we have an idea” and “people rely on this every day.” That usually means asking awkward questions early, keeping the architecture understandable, and treating deployment, security, data boundaries, and maintenance as part of the product.
+**Ask the awkward questions in week one.** Who owns this data, who pays for the storage, what happens when the person who requested the feature leaves. These only get more expensive the longer you postpone them.
 
-Code matters. So do clear decisions, honest status updates, and software that a team can run after handover.
+**Boring where it counts.** A well-drawn module boundary beats a distributed system that needs a full-time operator. The infrastructure is rarely the interesting part of the product.
 
-## GitHub at a glance
+**Stay after launch.** I maintain most of what I ship, which changes how I build it. You stop leaving problems for whoever comes next once you work out that it's going to be you.
+
+## What's public here
 
 <p align="center">
   <picture>
@@ -52,9 +58,9 @@ Code matters. So do clear decisions, honest status updates, and software that a 
   </picture>
 </p>
 
-<p align="center"><sub>Most client work lives in private repositories, so this only reflects the activity GitHub exposes publicly.</sub></p>
+<p align="center"><sub>Client work lives in private repositories, so this is a partial picture. The public repos are mostly older side projects and things I built to learn something.</sub></p>
 
-## Toolbox
+## What I reach for
 
 <p align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" height="42" alt="TypeScript" title="TypeScript" />
@@ -88,8 +94,10 @@ Code matters. So do clear decisions, honest status updates, and software that a 
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cloudflare/cloudflare-original.svg" height="42" alt="Cloudflare" title="Cloudflare" />
 </p>
 
-## Let’s talk
+<p align="center"><sub>TypeScript wherever it will go, and whatever the problem actually calls for after that.</sub></p>
 
-I work with clients and collaborators through [Folkware Technologies](https://folkwaretech.coop), a people-first software cooperative based in Kolkata.
+## Get in touch
 
-If you are working through a difficult product or platform problem, tell me what is stuck: **[anindya@folkwaretech.coop](mailto:anindya@folkwaretech.coop)**.
+I take on client work through [Folkware Technologies](https://folkwaretech.coop), where a handful of us build software for organisations that can't afford to be anyone's growth experiment.
+
+If something in your product or platform is stuck, tell me what it is: **[anindya@folkwaretech.coop](mailto:anindya@folkwaretech.coop)**

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="820" height="88" viewBox="0 0 820 88" role="img" aria-labelledby="title desc">
   <title id="title">Current focus</title>
-  <desc id="desc">Animated text cycling through: From product idea to production; Web platforms, AI products, and internal tools; Clear interfaces and dependable systems.</desc>
+  <desc id="desc">Animated text cycling through: Tools for unions, co-ops, and small teams; Owned end to end, from schema to deploy; Built to keep running without me.</desc>
 
   <style>
     .panel {
@@ -77,8 +77,8 @@
   <rect class="accent" x="24" y="25" width="4" height="38" rx="2" />
   <text class="eyebrow" x="48" y="34">CURRENT FOCUS</text>
   <g aria-hidden="true">
-    <text class="line line-1" x="48" y="61">From product idea to production.</text>
-    <text class="line line-2" x="48" y="61">Web platforms, AI products, and internal tools.</text>
-    <text class="line line-3" x="48" y="61">Clear interfaces. Dependable systems.</text>
+    <text class="line line-1" x="48" y="61">Tools for unions, co-ops, and small teams.</text>
+    <text class="line line-2" x="48" y="61">Owned end to end, from schema to deploy.</text>
+    <text class="line line-3" x="48" y="61">Built to keep running without me.</text>
   </g>
 </svg>
